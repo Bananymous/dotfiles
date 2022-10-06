@@ -1,0 +1,34 @@
+font:
+  normal:
+    family: DejaVu Sans Mono
+
+  size: 7.5
+
+colors:
+  primary:
+    background: '#000000'
+    foreground: '#f0f0f0'
+
+  cursor:
+    text: CellBackground
+    cursor: CellForeground
+
+  normal:
+    black:   '#000000'
+    red:     '#f04242'
+    green:   '#42f042'
+    yellow:  '#f0f042'
+    blue:    '#4242f0'
+    magenta: '#f042f0'
+    cyan:    '#42f0f0'
+    white:   '#c0c0c0'
+
+  bright:
+    black:   '#373b41'
+    red:     '#f06666'
+    green:   '#88f088'
+    yellow:  '#f0f066'
+    blue:    '#6666f0'
+    magenta: '#f066f0'
+    cyan:    '#66f0f0'
+    white:   '#f0f0f0'

@@ -12,6 +12,14 @@ compinit
 # End of lines added by compinstall
 
 alias ls="ls --color=auto"
+alias ll="exa -lb --icons --color=auto --group-directories-first --git"
+alias gs="git status"
+alias gc="git commit"
+alias gap="git add -p"
+alias gp="git push"
+
+alias ss="maim -s -u"
+alias ssc="maim -s -u | xclip -selection clipboard -t image/png -i"
 
 autoload -U colors && colors
 PS1="%{$fg[green]%}%n@%m%{$reset_color%}:%{$fg[blue]%}%~%{$reset_color%}$ "
@@ -21,3 +29,5 @@ if [ -f /usr/share/nnn/quitcd/quitcd.bash_zsh ]; then
 fi
 
 export EDITOR=vim
+
+export PATH="$HOME/.local/bin:$PATH"
